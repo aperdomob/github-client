@@ -1,0 +1,41 @@
+{
+  "name": "github-client",
+  "version": "1.0.0",
+  "description": "This is a basic github client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./**/*.js",
+    "pretest": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aperdomob/github-client.git"
+  },
+  "keywords": [
+    "github",
+    "client"
+  ],
+  "author": {
+    "name": "Alejandro Perdomo",
+    "email": "aperdomobo@gmail.com",
+    "url": "https://github.com/aperdomob"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aperdomob/github-client/issues"
+  },
+  "homepage": "https://github.com/aperdomob/github-client#readme",
+  "engines": {
+    "node": "~8.1.3",
+    "npm": "~5.4.2"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
